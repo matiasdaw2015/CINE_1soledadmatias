@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="cine.js"></script>
+        <link rel="stylesheet" href="cine.css" type="text/css">
+    </head>
+    <body onload="cargarpagina();">
+        <header><h1>Cines Albacete Anselmo.</h1></header>
+        <br>
+        <article>
+            <section id="login">
+                <h2>Pagina principal: Login </h2>
+                <p>Introduce tu nombre de usuario</p>
+                <input id="nombre" type="text" value="" name="nombre" required="required">
+                <p>Introudce ahora tu contraseña</p>
+                <input id="contraseña" type="password" value="" name="contraseña" required="required">
+                <br>
+                 <blockquote class="botonlogin">
+                     <button type="button" onclick="irpagina('taquilla');">Entrar</button>
+                    <button type="button" onclick="">Resgistrar</button>
+                </blockquote>
+            </section>
+            <section id="taquilla">
+                <div id="sala1">
+                    <h2>Sala 1 : Dracula</h2>
+                    <table border="1">
+                        <tr>
+                            <td colspan="6">Listado de Butacas:</td>
+                        </tr>
+                        <tr>
+                            <td class="libre">Fila 1 Butaca 1</td>
+                            <td class="ocupada">Fila 1 Butaca 2</td>
+                            <td class="libre">Fila 1 Butaca 3</td>
+                            <td class="libre">Fila 1 Butaca 4</td>
+                            <td class="libre">Fila 1 Butaca 5</td>
+                            <td class="ocupada">Fila 1 Butaca 6</td>
+                        </tr>
+                        <tr>
+                            <td class="libre">Fila 2 Butaca 7</td>
+                            <td class="libre">Fila 2 Butaca 8</td>
+                            <td class="ocupada">Fila 2 Butaca 9</td>
+                            <td class="libre">Fila 2 Butaca 10</td>
+                            <td class="libre">Fila 2 Butaca 11</td>
+                            <td class="libre">Fila 2 Butaca 12</td>
+                        </tr>
+                        <tr>
+                            <td class="libre">Fila 3 Butaca 13</td>
+                            <td class="ocupada">Fila 3 Butaca 14</td>
+                            <td class="libre">Fila 3 Butaca 15</td>
+                            <td class="libre">Fila 3 Butaca 16</td>
+                            <td class="libre">Fila 3 Butaca 17</td>
+                            <td class="ocupada">Fila 3 Butaca 18</td>
+                        </tr>
+                        <tr>
+                            <td class="libre">Fila 4 Butaca 19</td>
+                            <td class="libre">Fila 4 Butaca 20</td>
+                            <td class="libre">Fila 4 Butaca 21</td>
+                            <td class="ocupada">Fila 4 Butaca 22</td>
+                            <td class="libre">Fila 4 Butaca 23</td>
+                            <td class="libre">Fila 4 Butaca 24</td>
+                        </tr>
+                        <tr>
+                            <td class="ocupada">Fila 5 Butaca 25</td>
+                            <td class="libre">Fila 5 Butaca 26</td>
+                            <td class="libre">Fila 5 Butaca 27</td>
+                            <td class="ocupada">Fila 5 Butaca 28</td>
+                            <td class="libre">Fila 5 Butaca 29</td>
+                            <td class="ocupada">Fila 5 Butaca 30</td>
+                        </tr>
+                    </table>
+                    <br><br>
+                    <input type="button" value="Sala1">
+                    <br><br>
+                </div>
+                <div id="sala2">
+                    <h2>Sala 2 : Origen</h2>
+                    <table border="1">
+                        <tr>
+                            <td colspan="6">Listado de Butacas:</td>
+                        </tr>
+                        <tr>
+                            <td class="libre">Fila 1 Butaca 1</td>
+                            <td class="libre">Fila 1 Butaca 2</td>
+                            <td class="libre">Fila 1 Butaca 3</td>
+                            <td class="libre">Fila 1 Butaca 4</td>
+                            <td class="libre">Fila 1 Butaca 5</td>
+                            <td class="ocupada">Fila 1 Butaca 6</td>
+                        </tr>
+                        <tr>
+                            <td class="libre">Fila 2 Butaca 7</td>
+                            <td class="ocupada">Fila 2 Butaca 8</td>
+                            <td class="libre">Fila 2 Butaca 9</td>
+                            <td class="libre">Fila 2 Butaca 10</td>
+                            <td class="libre">Fila 2 Butaca 11</td>
+                            <td class="ocupada">Fila 2 Butaca 12</td>
+                        </tr>
+                        <tr>
+                            <td class="libre">Fila 3 Butaca 13</td>
+                            <td class="libre">Fila 3 Butaca 14</td>
+                            <td class="libre">Fila 3 Butaca 15</td>
+                            <td class="libre">Fila 3 Butaca 16</td>
+                            <td class="libre">Fila 3 Butaca 17</td>
+                            <td class="ocupada">Fila 3 Butaca 18</td>
+                        </tr>
+                        <tr>
+                            <td class="libre">Fila 4 Butaca 19</td>
+                            <td class="ocupada">Fila 4 Butaca 20</td>
+                            <td class="libre">Fila 4 Butaca 21</td>
+                            <td class="libre">Fila 4 Butaca 22</td>
+                            <td class="libre">Fila 4 Butaca 23</td>
+                            <td class="ocupada">Fila 4 Butaca 24</td>
+                        </tr>
+                        <tr>
+                            <td class="libre">Fila 5 Butaca 25</td>
+                            <td class="libre">Fila 5 Butaca 26</td>
+                            <td class="ocupada">Fila 5 Butaca 27</td>
+                            <td class="ocupada">Fila 5 Butaca 28</td>
+                            <td class="ocupada">Fila 5 Butaca 29</td>
+                            <td class="ocupada">Fila 5 Butaca 30</td>
+                        </tr>
+                    </table>
+                    <br><br>
+                    <input type="button" value="Sala2">
+                    <br><br>
+                </div>
+            </section>
+            <section id="saltauno">
+                
+            </section>
+            <section id="salados">
+                
+            </section>
+        </article>
+    </body>
+</html>

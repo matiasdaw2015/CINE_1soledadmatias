@@ -1,0 +1,23 @@
+
+h1{text-align: center;}
+
+#login{text-align: center;}
+
+#taquilla{text-align: center;}
+
+#sala1{border: solid blueviolet;
+       margin-left: 150px;
+        float: left;
+        width: 500px;}
+
+#sala2{border: solid blue;
+        float: left;
+        width: 500px;}
+        
+table{margin-left: auto; 
+      margin-right: auto;}
+
+td{text-align: center;}
+
+.libre{background-color: #A9F5A9;}
+.ocupada{background-color: #F78181;}
